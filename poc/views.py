@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 import requests
-bye_url = 'http://localhost'
+bye_url = 'http://bye-world'
 
 def hello(request, name):
     text = 'Hello World ' + name + '<br><br>'
